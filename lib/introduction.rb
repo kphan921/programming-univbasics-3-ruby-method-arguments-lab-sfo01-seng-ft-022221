@@ -10,15 +10,10 @@ def introduction_with_lanquage(name, lanquage)
   puts "Hi, my name is #{name} and I am learning to program in #{lanquage}."
 end
 
-def introduction_with_lanquage_optional(name, lanquage)
-  puts "Hi, my name is #{name} and I am learning to program in Ruby."
+def introduction_with_lanquage_optional(name, lanquage = "Ruby")
+  puts "Hi, my name is #{name} and I am learning to program in #{lanquage}."
 end
 
-introduction
-
-introduction_with_lanquage
-
-introduction_with_lanquage_optional
 
 
 

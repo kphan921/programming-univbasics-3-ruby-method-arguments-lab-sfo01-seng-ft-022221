@@ -14,11 +14,11 @@ def introduction_with_lanquage_optional(name, lanquage)
   puts "Hi, my name is #{name} and I am learning to program in Ruby."
 end
 
+introduction
 
+introduction_with_lanquage
 
-
-
-
+introduction_with_lanquage_optional
 
 
 
